@@ -17,4 +17,5 @@ unused.
 
 ## Status
 
-Seeded from metadata. Details to be enriched as work progresses.
+- Seeded from metadata. Details to be enriched as work progresses.
+- Docs-agent pipeline verified end-to-end on 2026-08-17: pull → edit → `mkdocs build` → commit → push → Pages deploy.
