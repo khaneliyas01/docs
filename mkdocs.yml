@@ -1,0 +1,88 @@
+site_name: The Knowledge Base
+site_description: Personal knowledge base — docs for every project, repo, and everything about us (no secrets).
+site_url: https://khaneliyas01.github.io/docs/
+repo_url: https://github.com/khaneliyas01/docs
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - search.share
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.tasklist
+  - tables
+
+nav:
+  - Home: index.md
+  - About Us: about.md
+  - Projects:
+      - projects/index.md
+      - Active:
+          - Eleven: projects/eleven.md
+          - FamJam: projects/famjam.md
+          - chat: projects/chat.md
+          - ifoundu: projects/ifoundu.md
+          - ifounduv1: projects/ifounduv1.md
+          - PetAI: projects/petai.md
+          - quasar: projects/quasar.md
+          - basesplit: projects/basesplit.md
+          - profile: projects/profile.md
+          - Games: projects/games.md
+          - efootball-tournament-with-discord-bot: projects/efootball-tournament-with-discord-bot.md
+      - Forks:
+          - agentchattr: projects/agentchattr.md
+          - buzz: projects/buzz.md
+          - public-apis: projects/public-apis.md
+          - simplefolio: projects/simplefolio.md
+      - Archive:
+          - Hello_World: projects/hello-world.md
+          - Bus-Reservation-System: projects/bus-reservation-system.md
+          - Bus-ticketing-system-using-Android: projects/bus-ticketing-system-using-android.md
+          - IK: projects/ik.md
+          - github-slideshow: projects/github-slideshow.md
+          - image-gallery-starter: projects/image-gallery-starter.md
+          - khaneliyas01: projects/khaneliyas01.md
+  - Agents: agents.md
+  - Workflow: workflow.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/khaneliyas01
+    - icon: fontawesome/solid/globe
+      link: https://eliyas.xyz
+
+copyright: Copyright &copy; 2026 Iliyas Khan
