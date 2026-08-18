@@ -13,6 +13,7 @@ alike — but no secrets.
 | [ifoundu](ifoundu.md) | Buy/Sell the missing pair of your product | Private | HTML |
 | [ifounduv1](ifounduv1.md) | Version 1.0 of the ifoundu app | Private | JavaScript |
 | [PetAI](petai.md) | Desktop pet cat that chats with AI | Private | — |
+| [shopverse](shopverse.md) | Full-stack commerce: catalog, cart, checkout, coupons, admin | Private | TypeScript |
 | [quasar](quasar.md) | (undescribed) | Private | JavaScript |
 | [basesplit](basesplit.md) | (undescribed) | Private | TypeScript |
 | [profile](profile.md) | Profile pages hosted on eliyas.xyz | Public | CSS |
