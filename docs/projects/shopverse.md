@@ -41,4 +41,4 @@ Release-readiness pass complete, all verification green:
 ## Notes
 
 - Server runs via `tsx` (no compiled emit); `start` script uses `node --experimental-strip-types src/main.ts`
-- Not yet pushed to a remote; first commit pending
+- Live on GitHub: <https://github.com/khaneliyas01/shopverse> (private, pushed 2026-08-18, commit `7322abe` on `main`)
