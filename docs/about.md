@@ -42,6 +42,7 @@ tools, open source.
 
 - **Documentation is a first-class deliverable.** Every task ends with docs.
 - **No secrets in repos.** Environment variables, never hard-coded values.
+- **GitHub MCP uses PAT via env var.** `GH_PAT_TOKEN` set in shell, referenced as `{env:GH_PAT_TOKEN}` in opencode config.
 - **Minimal, idiomatic changes.** Match existing conventions before introducing
   new ones.
 - **Verify before claiming done.** Build, lint, test — show evidence.
