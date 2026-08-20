@@ -19,6 +19,7 @@ alike — but no secrets.
 | [profile](profile.md) | Profile pages hosted on eliyas.xyz | Public | CSS |
 | [Games](games.md) | Open source games with no ads | Public | HTML |
 | [efootball-tournament-with-discord-bot](efootball-tournament-with-discord-bot.md) | eFootball tournament orchestration via Discord bot | Public | TypeScript |
+| [DigitalBrain](digitalbrain.md) | Personal data and knowledge system — unified, secure, searchable interface to owned data | Private | Under discussion |
 
 ## Forks
 
