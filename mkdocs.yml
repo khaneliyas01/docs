@@ -63,6 +63,7 @@ nav:
           - profile: projects/profile.md
           - Games: projects/games.md
           - efootball-tournament-with-discord-bot: projects/efootball-tournament-with-discord-bot.md
+          - DigitalBrain: projects/digitalbrain.md
       - Forks:
           - agentchattr: projects/agentchattr.md
           - buzz: projects/buzz.md
